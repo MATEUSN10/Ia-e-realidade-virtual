@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Minha primeira página </title>
+   <link rel="shortcut icon" href="IMAGENS/favicon.ico" type="image/x-icon">
+<!-- css - cascading style sheet - estilo em cascata INTERNO -->
+
+<style>
+    h1{
+      color: rgb(45, 45, 129); /* cor da fonte */
+      text-align: center; /*centralizar texto */
+      font-size: 24px; /*tamanho fonte*/
+      font-family: Century Gothic, Arial, Helvetica, sans-serif;
+     
+    }
+    h2{
+        color: rgb(223, 24, 137);
+        text-align: center;
+        font-size: 20px ;
+        font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    }
+    p{
+        text-align: justify;
+        font-family: Century Gothic, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgb(55, 31, 23);
+    }
+    h3{
+        font-family: Century Gothic, Arial, Helvetica, sans-serif;
+        color: rgb(108, 33, 66);
+        font-size: 18px;
+    }
+
+    li{
+       font-family: Century Gothic, Arial, Helvetica, sans-serif; 
+       font-size: 14px;
+    }
+
+    img{
+        width:100%; 
+        /*largura em porcentagem para se adaptar
+        a qualquer tamanho de tela RESPONSIVIDADE*/
+        height:400px;
+    }
+
+body{
+    background-color: rgb(225, 189, 219);
+
+} 
+
+.artificial{ /*classe para alterar cor do texto*/
+    color:  rgb(97, 48, 81);
+    
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(59, 34, 47);
+}
+
+#RODAPE{
+    text-align: center;
+    background-color: rgb(200, 25, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+</style>
+
+
+</head>
+
+<body>
+<nav>   <!-- parte de navegação -->
+    <!-- inserindo listas para acessibilidade -->
+    <ul> 
+        <li> <a href="index.html"> HOME </a> </li>
+        <li> <a href="realidade.html"> REALIDADE AUMENTADA </a> </li>  
+        <li> <a href="3d.html"> TECNOLOGIA 3D </a> </li>
+    </ul>
+</nav>
+
+
+<hr> <!-- linha horizontal -->
+
+<h1>INTELIGÊNCIA<span class="artificial"> ARTIFICIAL</span> </h1>
+  <!-- h1 título principal -->
+  <h2>Como lidar com esse tema</h2> <!-- subtítulo -->
+
+<figure>
+  <img src="IMAGENS/IA.jpg" alt="img IA"  title="homem com óculos 3D"> 
+ </figure> 
+  
+  <!-- src source -->
+    
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima earum, cumque aut eligendi obcaecati temporibus, itaque assumenda labore odit in perferendis quis totam odio sint veritatis repellat, <b> <i>dolorum</i></b> modi.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita dolore molestias ipsa suscipit maxime delectus quis. Provident, quod doloribus cum quo nobis officiis voluptates sit, magni esse perspiciatis asperiores! Non!
+    </p>
+
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempora nihil quam magni reiciendis fuga at, vero numquam, eum nulla voluptas perspiciatis est debitis possimus, repellendus laboriosam exercitationem. Odio, harum!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis dolores? Cumque nemo ullam harum quas dolorem molestiae quia fugit fuga atque. Quia, iure numquam! Vitae est error ipsam in?
+    </p> 
+
+    <h3>VANTAGENS DA IA</h3>
+    <ol> <!--ordered list - lista ordenada -->
+        <li>Automatização de tarefas</li> 
+        <!-- li item list - item da lista -->
+        <li>Assistente em tarefas criativas</li>
+        <li>Identificação de fraudes bancárias</li>
+        <li>Aumento de produtividade</li>
+        <li>Decisões assertivas</li>
+        <li>Previsão de tendências</li>
+    </ol>
+    
+<footer id="RODAPE">
+Todos os direitos reservados - 2026
+</footer>
+
+</body>
+</html>
